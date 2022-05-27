@@ -24,8 +24,8 @@ function cargarSalaAleatoria(arraySala: boolean[]) {
 //Funcion para contar las butacas ocupadas
 function buscarButacasDesocupadas(arraySala: boolean[]): number {
   let desocupadas: number = 0;
-  for (var index in arraySala) {
-    if (arraySala[index] === false) {
+  for (var i in arraySala) {
+    if (arraySala[i] === false) {
       desocupadas++;
     }
   }
